@@ -4,22 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link
-      rel="icon"
-      href="https://futureproof-public-documents.s3.eu-west-2.amazonaws.com/favicon.ico"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"href="https://futureproof-public-documents.s3.eu-west-2.amazonaws.com/favicon.ico"/>
     <title>BEST FOOD EVER</title>
   </head>
-  <body>
-    <header>
-        <h1>Laverbread</h1>
-    </header>
-    <main>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Laver_and_toast.JPG/986px-Laver_and_toast.JPG"/>
-        <p> Laverbread ( / ˈ l ɑː v ər b r ɛ d / ; Welsh : bara lafwr or bara lawr ; Irish : sleabhac ) is a food product, made from the edible seaweed (littoral alga) consumed mainly in Wales as part of local traditional cuisine. The seaweed is commonly found around the west coast of Great Britain , and the coasts of Ireland where it is known as sleabhac . [1] It is smooth in texture and forms delicate, sheetlike thalli , often clinging to rocks. The principal variety is Porphyra umbilicalis . Porphyra (laver seaweed) is classified as red algae ; it tends to be a brownish colour, but boils down to a dark green pulp when prepared. Laver seaweed has a high content of dietary minerals , particularly iodine and iron . The high iodine content gives the seaweed a distinctive flavour in common with olives and oysters . </p>
-    </main>
 
+  <body>
+    <div class="container">
+      <header class="deep-purple lighten-2">
+        <nav class="deep-purple lighten-2 nav-extended">
+          <section class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Laverbread</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="whereto.html">Where to buy Laverbread</a></li>
+            </ul>            
+            <ul id="nav-mobile nav2" class="center hide-on-large-only" style="width:max-content">
+              <br>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="whereto.html">Where to buy Laverbread</a></li>
+              <br>
+            </ul>
+          </section>
+        </nav>
+      </header>
+      <h4 class="center deep-purple lighten-2" style="margin-top:0; padding-bottom: 5px;">Home</h4>
+      <br>
+      <main>
+        <div class="container center-align">
+          <img
+            class="responsive-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Laver_and_toast.JPG/986px-Laver_and_toast.JPG"
+          />
+        </div>
+
+        <blockquote>
+          Laverbread ( / ˈ l ɑː v ər b r ɛ d / ; Welsh : bara lafwr or bara lawr
+          ; Irish : sleabhac ) is a food product, made from the edible seaweed
+          (littoral alga) consumed mainly in Wales as part of local traditional
+          cuisine.
+        </blockquote>
+
+        <p class="flow-text">
+          The seaweed is commonly found around the west coast of Great Britain ,
+          and the coasts of Ireland where it is known as sleabhac .
+        </p>
+        <p class="flow-text">
+          [1] It is smooth in texture and forms delicate, sheetlike thalli ,
+          often clinging to rocks. The principal variety is Porphyra umbilicalis
+          .
+        </p>
+        <p class="flow-text">
+          Porphyra (laver seaweed) is classified as red algae ; it tends to be a
+          brownish colour, but boils down to a dark green pulp when prepared.
+        </p>
+        <p class="flow-text">
+          Laver seaweed has a high content of dietary minerals , particularly
+          iodine and iron . The high iodine content gives the seaweed a
+          distinctive flavour in common with olives and oysters .
+        </p>
+          <div class="row">
+            <div class="col s6">
+              <section class="card-panel yellow text-lighten-2">
+                <img class="responsive-img" src="https://beachfood.co.uk/shop/image/cache/catalog/laverbread%20screw-2000x2000.JPG"/>
+                <p class="z-depth-5">Example in nature</p>
+              </section>
+            </div>
+            <div class="col s6">
+              <section class="card-panel teal white-text text-lighten-2">
+                <img class="responsive-img" src="https://beachfood.co.uk/shop/image/cache/catalog/laverbread%20screw-2000x2000.JPG"/>
+                <p class="z-depth-5">Example in nature</p>
+              </section>
+            </div>
+          </div>
+          <div class="row">    
+            <div class="col s2">
+          <section class="card-panel pink text-lighten-2">
+            <img class="responsive-img" src="https://beachfood.co.uk/shop/image/cache/catalog/laverbread%20screw-2000x2000.JPG"/>
+            <p class="z-depth-5">Example in nature</p>
+          </section>
+            </div>
+            <div class="col s2">
+              <section class="card-panel teal white-text text-lighten-2">
+                  <img class="responsive-img" src="https://beachfood.co.uk/shop/image/cache/catalog/laverbread%20screw-2000x2000.JPG"/>
+                  <p class="z-depth-5">Example in nature</p>
+              </section> 
+            </div>
+          </div>             
+        </main>
+    </div>
   </body>
 </html>

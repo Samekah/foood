@@ -1,0 +1,8 @@
+@media only screen and (max-width: 560px) {
+    /* between these sizes lower font size */
+    .z-depth-5{
+       text-align:left;
+       font-size:2vw;
+   }
+
+}
